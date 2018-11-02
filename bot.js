@@ -10,7 +10,7 @@ client.on('ready', () => {
 
 
 
-const prefix = "!"
+const prefix = "L"
 
 
 
