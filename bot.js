@@ -16,7 +16,7 @@ const prefix = "L"
 
 
 client.on('message', function(message) {
-	const myID = "507275266108686340";
+	const myID = "472078775568564234";
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix + "setname")) {
 		        if(message.author.id !== myID) return;
